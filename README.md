@@ -14,12 +14,12 @@ The **Tournament Management System** is a C++ application designed to organize a
 ## Installation
 1. Clone the repository:
    ```sh
-   git clone https://github.com/thelazygenius404/C-_Project.git
-   cd 
+   git clone https://github.com/thelazygenius404/Cpp_Project.git
+   cd Cpp_project
    ```
 2. Compile the program using a C++ compiler:
    ```sh
-   g++ -o tournamen main.cpp  -std=c++11
+   g++ -o tournament main.cpp  -std=c++11
    ```
 3. Run the executable:
    ```sh
@@ -36,6 +36,11 @@ The **Tournament Management System** is a C++ application designed to organize a
 ```
 /tournament-management
 │── main.cpp         # Entry point of the program
+│── arbitre.h        # Implementation of referee management
+│── equipe.h         # Implementation of club management
+│── match.h          # Implementation of match management
+│── terrain.h        # Implementation of stadium management
+│── arbitre.h        # Implementation of inscription management
 │── README.md        # Documentation file
 ```
 
